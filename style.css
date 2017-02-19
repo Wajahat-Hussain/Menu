@@ -1,0 +1,59 @@
+body {margin: 0;}
+
+ul#menu {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    overflow: hidden;
+    background-color: #333;
+}
+
+ul#menu li {float: left;}
+
+ul#menu li a {
+    display: block;
+    color: white;
+    text-align: center;
+    padding: 14px 16px;
+    text-decoration: none;
+}
+#app{
+     margin: 0;
+    padding: 0;
+    width: 100%;
+    background-color: black;
+    color: white;
+     height: 40px;; 
+
+    overflow: auto;
+}
+ a:hover {
+    background-color: red;
+    color: white;
+    text-decoration: none;
+}
+div{
+    
+      margin: 0;
+    padding: 0;
+    float: left;
+}
+
+ul#menu li a:hover:not(.active) {background-color: #111;}
+
+ul#menu li a.active {background-color: #4CAF50;}
+
+ul#menu li.right {float: right;}
+
+@media screen and (max-width: 600px){
+    ul#menu li.right, 
+    ul#menu li {float: none;}
+}
+a{
+ display: block;
+    color: #000;
+    padding: 10px 16px;
+    text-decoration: none;
+    float: left;
+    color: white; 
+    background: #000;
